@@ -55,8 +55,17 @@
 @media (max-width: 750px) {
   .container {
     width: 100%;
+  margin:0;
+    
   }
   .image {
     width: 100%;
+  }
+  .container:hover {
+    background: var(--bg-blue);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   color: white;
+   cursor: pointer;
+   transform: scale(1);
   }
 }

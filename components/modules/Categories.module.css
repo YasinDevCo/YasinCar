@@ -1,0 +1,29 @@
+.container {
+  max-width: 425px;
+  margin: 0 auto 30px;
+  display: flex;
+  align-items: center;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  padding: 5px;
+  justify-content: space-between;
+}
+.container .item {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  background: var(--bg-blue);
+  color: white;
+  height: 55px;
+  border-radius: 8px;
+  padding: 2px 0;
+  cursor: pointer;
+  transition: var(--tran);
+}
+.container .item:hover {
+    background: var(--bg-blue);
+   transform: scale(1.04);
+  }
+  

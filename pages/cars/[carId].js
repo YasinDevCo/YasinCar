@@ -8,7 +8,6 @@ function CarDetail() {
 
   return (
     <>
-      {/* <img src={carDetails.image} /> */}
 
       <CarDetails carDetails={carDetails} />
     </>
